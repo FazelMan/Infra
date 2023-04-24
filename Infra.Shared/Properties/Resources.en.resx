@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CourierHasOrderAlready" xml:space="preserve">
+    <value>Courier has order already</value>
+  </data>
+  <data name="DeliveryRequestNotExists" xml:space="preserve">
+    <value>Delivery request not exists</value>
+  </data>
+  <data name="DuplicateRequest" xml:space="preserve">
+    <value>Duplicate request</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Resources_fa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources.fa.resx;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="InvalidClearPrice" xml:space="preserve">
+    <value>Invalid clear price</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>Invalid Date</value>
+  </data>
+  <data name="InvalidOrderId" xml:space="preserve">
+    <value>Invalid order id</value>
+  </data>
+  <data name="InvalidSecretCode" xml:space="preserve">
+    <value>Invalid secret code</value>
+  </data>
+  <data name="InvalidSellCount" xml:space="preserve">
+    <value>Invalid sell count</value>
+  </data>
+  <data name="InvalidSmsCode" xml:space="preserve">
+    <value>Invalid Sms Code</value>
+  </data>
+  <data name="NotAllowedTorequestDelivery" xml:space="preserve">
+    <value>Not allowed to request delivery</value>
+  </data>
+  <data name="OrderIsAssignedToDelivery" xml:space="preserve">
+    <value>Order is assigned to delivery</value>
+  </data>
+  <data name="TransporterAlreadyExists" xml:space="preserve">
+    <value>Transporter already exists</value>
+  </data>
+  <data name="TransporterShouldBeAccepted" xml:space="preserve">
+    <value>Transporter should be accepted</value>
+  </data>
+  <data name="TransporterShouldBeRegistered" xml:space="preserve">
+    <value>Transporter should be registered</value>
+  </data>
+  <data name="UNEXPECTED_RESULT" xml:space="preserve">
+    <value>Unexpected result</value>
+  </data>
+  <data name="UserDoesNotExist" xml:space="preserve">
+    <value>User does not exist</value>
+  </data>
+  <data name="DataAlreadyExisits" xml:space="preserve">
+    <value>Data Already Exisits</value>
+  </data>
+  <data name="ImageTypeIsRequired" xml:space="preserve">
+    <value>Image type is required</value>
+  </data>
+  <data name="DataNotFound" xml:space="preserve">
+    <value>Data not found</value>
+  </data>
+  <data name="InvalidCaptcha" xml:space="preserve">
+    <value>Invalid Captcha</value>
+  </data>
+  <data name="ServiceNotInitialized" xml:space="preserve">
+    <value>Service is noot initialized</value>
+  </data>
+  <data name="NotAllowLicenseExcelView" xml:space="preserve">
+    <value>Not allow license excel view</value>
+  </data>
+  <data name="UserAlreadyExists" xml:space="preserve">
+    <value>User already exists</value>
+  </data>
+  <data name="UserPhoneMAlreadyExists" xml:space="preserve">
+    <value>User phone mobile already exists</value>
+  </data>
+  <data name="UnsupportedMimeTypeSpecified" xml:space="preserve">
+    <value>Unsupported MimeType specified</value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>Validation error</value>
+  </data>
+  <data name="InvalidTextInput" xml:space="preserve">
+    <value>Invalid text input</value>
+  </data>
+  <data name="InvalidNationalCode" xml:space="preserve">
+    <value>Invalid nationalCode</value>
+  </data>
+  <data name="InvalidMobileNumber" xml:space="preserve">
+    <value>Invalid mobile number</value>
+  </data>
+  <data name="InvalidInvalidPhoneNumber" xml:space="preserve">
+    <value>Invalid invalid phone number</value>
+  </data>
+  <data name="InvalidInvalidFaxNumber" xml:space="preserve">
+    <value>Invalid invalid fax number</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>Invalid email address</value>
+  </data>
+  <data name="InvalidZipCode" xml:space="preserve">
+    <value>Invalid zip code</value>
+  </data>
+  <data name="InvalidStageId" xml:space="preserve">
+    <value>Invalid stage id</value>
+  </data>
+  <data name="InvalidAreaId" xml:space="preserve">
+    <value>Invalid area id</value>
+  </data>
+  <data name="InvalidJobTypeId" xml:space="preserve">
+    <value>Invalid job type id</value>
+  </data>
+  <data name="InvalidJobStatusId" xml:space="preserve">
+    <value>Invalid job Status Id</value>
+  </data>
+  <data name="InvalidWorkshopId" xml:space="preserve">
+    <value>Invalid workshop id</value>
+  </data>
+  <data name="InvalidUserId" xml:space="preserve">
+    <value>Invalid user id</value>
+  </data>
+  <data name="InvalidNetworkId" xml:space="preserve">
+    <value>Invalid network id</value>
+  </data>
+  <data name="InvalidAmount" xml:space="preserve">
+    <value>Invalid amount</value>
+  </data>
+  <data name="InvalidCounterId" xml:space="preserve">
+    <value>Invalid counter id</value>
+  </data>
+  <data name="InvalidStateCode" xml:space="preserve">
+    <value>Invalid state code</value>
+  </data>
+  <data name="InvalidUniversityId" xml:space="preserve">
+    <value>Invalid university id</value>
+  </data>
+  <data name="InvalidChildIndex" xml:space="preserve">
+    <value>Invalid child index</value>
+  </data>
+  <data name="InvalidFormDetails" xml:space="preserve">
+    <value>Invalid form details</value>
+  </data>
+  <data name="InvalidBarcode" xml:space="preserve">
+    <value>Invalid barcode</value>
+  </data>
+  <data name="InvalidMedicalNO" xml:space="preserve">
+    <value>Invalid medical NO</value>
+  </data>
+  <data name="InvalidId_University" xml:space="preserve">
+    <value>Invalid id_university</value>
+  </data>
+  <data name="InvalidId_Worktime" xml:space="preserve">
+    <value>Invalid id_worktime</value>
+  </data>
+  <data name="InvalidLicenseNO" xml:space="preserve">
+    <value>Invalid license NO</value>
+  </data>
+  <data name="InvalidLicenseNO_Date" xml:space="preserve">
+    <value>Invalid licenseNO_date</value>
+  </data>
+  <data name="InvalidAgentNationalId" xml:space="preserve">
+    <value>Invalid agent national id</value>
+  </data>
+  <data name="InvalidTechnicalNationalId" xml:space="preserve">
+    <value>Invalid technical national id</value>
+  </data>
+  <data name="InvalidWorkshopTokenType" xml:space="preserve">
+    <value>Invalid workshop token type</value>
+  </data>
+  <data name="InvalidHomemade" xml:space="preserve">
+    <value>Invalid homemade</value>
+  </data>
+  <data name="InvalidProductId" xml:space="preserve">
+    <value>Invalid product id</value>
+  </data>
+  <data name="InvalidPrice" xml:space="preserve">
+    <value>Invalid price</value>
+  </data>
+  <data name="InvalidMinCount" xml:space="preserve">
+    <value>Invalid min count</value>
+  </data>
+  <data name="InvalidZeroValue" xml:space="preserve">
+    <value>Invalid zero value</value>
+  </data>
+  <data name="InvalidPersianCharacter" xml:space="preserve">
+    <value>Invalid persian character</value>
+  </data>
+  <data name="InvalidMinLen" xml:space="preserve">
+    <value>Invalid min len</value>
+  </data>
+  <data name="InvalidNullOrStringValue" xml:space="preserve">
+    <value>Invalid null or string value</value>
+  </data>
+  <data name="InvalidPhoneM" xml:space="preserve">
+    <value>Invalid phoneM</value>
+  </data>
+  <data name="InvalidPlaqueNumber" xml:space="preserve">
+    <value>Invalid plaque number</value>
+  </data>
+  <data name="InvalidIdDay" xml:space="preserve">
+    <value>Invalid id day</value>
+  </data>
+  <data name="InvalidIdShift" xml:space="preserve">
+    <value>Invalid id shift</value>
+  </data>
+  <data name="InvalidId_CertificatesType" xml:space="preserve">
+    <value>Invalid Id_CertificatesType</value>
+  </data>
+  <data name="InvalidId_VehicleName" xml:space="preserve">
+    <value>Invalid id_vehicle name</value>
+  </data>
+  <data name="InvalidModelDate" xml:space="preserve">
+    <value>Invalid model date</value>
+  </data>
+  <data name="InvalidInsuranceNum1" xml:space="preserve">
+    <value>Invalid Insurance Num1</value>
+  </data>
+  <data name="InvalidDeliveryPrice" xml:space="preserve">
+    <value>Invalid delivery price</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Invalid password</value>
+  </data>
+  <data name="InvalidExcellFile" xml:space="preserve">
+    <value>Invalid excell file</value>
+  </data>
+  <data name="InvalidDiscount" xml:space="preserve">
+    <value>Invalid discount</value>
+  </data>
+  <data name="InvalidRefreshToken " xml:space="preserve">
+    <value>Invalid refresh token</value>
+  </data>
+  <data name="InvalidRoleId" xml:space="preserve">
+    <value>Invalid role id</value>
+  </data>
+  <data name="InvalidRoleUserId" xml:space="preserve">
+    <value>Invalid role user id</value>
+  </data>
+  <data name="InvalidImageData " xml:space="preserve">
+    <value>Invalid image data</value>
+  </data>
+  <data name="InvalidOrderAccess" xml:space="preserve">
+    <value>Invalid order access</value>
+  </data>
+  <data name="BusinessError" xml:space="preserve">
+    <value>Business error</value>
+  </data>
+  <data name="UnexpectedResult" xml:space="preserve">
+    <value>Unexpected result</value>
+  </data>
+  <data name="DataDoesNotExist" xml:space="preserve">
+    <value>Data does not exist</value>
+  </data>
+  <data name="AmountDoesNotMatch" xml:space="preserve">
+    <value>Amount does not match</value>
+  </data>
+  <data name="CounterDoesNotExists" xml:space="preserve">
+    <value>Counter does not exists</value>
+  </data>
+  <data name="JobTypeDoesNotExists" xml:space="preserve">
+    <value>Job type does not exists</value>
+  </data>
+  <data name="UserAccountInActive" xml:space="preserve">
+    <value>User account inactive</value>
+  </data>
+  <data name="UserInfoDoesNotExist" xml:space="preserve">
+    <value>User info does not exist</value>
+  </data>
+  <data name="DuplicateVIN" xml:space="preserve">
+    <value>Duplicate VIN</value>
+  </data>
+  <data name="DuplicatePlaque" xml:space="preserve">
+    <value>Duplicate plaque</value>
+  </data>
+  <data name="InvalidAmountRequestPrice " xml:space="preserve">
+    <value>Invalid amount request price</value>
+  </data>
+  <data name="SecurityError" xml:space="preserve">
+    <value>Security error</value>
+  </data>
+  <data name="RequestBindingError" xml:space="preserve">
+    <value>Request binding error</value>
+  </data>
+  <data name="BankConnectionError" xml:space="preserve">
+    <value>Bank connection error</value>
+  </data>
+  <data name="PaymentAlready" xml:space="preserve">
+    <value>Payment already</value>
+  </data>
+  <data name="InvalidDentistUnitCnt" xml:space="preserve">
+    <value>Invalid dentist unit cnt</value>
+  </data>
+  <data name="InvalidMaxCount" xml:space="preserve">
+    <value>Invalid max count</value>
+  </data>
+  <data name="InvalidErrorIRCode" xml:space="preserve">
+    <value>Invalid error IR code</value>
+  </data>
+  <data name="InvalidVIN" xml:space="preserve">
+    <value>Invalid VIN</value>
+  </data>
+  <data name="LargeImageData" xml:space="preserve">
+    <value>Large image data</value>
+  </data>
+  <data name="NetworkDoesNotExist" xml:space="preserve">
+    <value>Network does not exist</value>
+  </data>
+  <data name="NetworkParentDoesNotExist" xml:space="preserve">
+    <value>Network parent does not exist</value>
+  </data>
+  <data name="RoleDoesNotExist" xml:space="preserve">
+    <value>Role does not exist</value>
+  </data>
+  <data name="PenaltyDoesNotMatch" xml:space="preserve">
+    <value>Penalty does not Match</value>
+  </data>
+  <data name="InvalidAmountRequestBank" xml:space="preserve">
+    <value>Invalid amount request bank</value>
+  </data>
+  <data name="RefreshTokenDoesNotExist" xml:space="preserve">
+    <value>Refresh token does not exist</value>
+  </data>
+  <data name="InvalidAutoClave" xml:space="preserve">
+    <value>Invalid auto clave</value>
+  </data>
+  <data name="InvalidPhoneF" xml:space="preserve">
+    <value>Invalid phoneF</value>
+  </data>
+  <data name="InvalidSeasonal" xml:space="preserve">
+    <value>Invalid seasonal</value>
+  </data>
+  <data name="DataAlreadyExist" xml:space="preserve">
+    <value>Data Already Exisit</value>
+  </data>
+</root>

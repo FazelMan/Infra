@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CourierHasOrderAlready" xml:space="preserve">
+    <value>شما  یک بسته در حال ارسال دارید</value>
+  </data>
+  <data name="DeliveryRequestNotExists" xml:space="preserve">
+    <value>امکان قبول مرسوله موجود نمی باشد</value>
+  </data>
+  <data name="DuplicateRequest" xml:space="preserve">
+    <value>درخواست تکراری می باشد</value>
+  </data>
+  <data name="InvalidClearPrice" xml:space="preserve">
+    <value>قیمت نهایی اشتباه می باشد</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>تاریخ اشتباه می باشد</value>
+  </data>
+  <data name="InvalidOrderId" xml:space="preserve">
+    <value>کد سفارش نادرست می باشد</value>
+  </data>
+  <data name="InvalidSecretCode" xml:space="preserve">
+    <value>کد تحویل اشتباه می باشد</value>
+  </data>
+  <data name="InvalidSellCount" xml:space="preserve">
+    <value>تعداد موجودی معتبر نمی باشد</value>
+  </data>
+  <data name="InvalidSmsCode" xml:space="preserve">
+    <value>کد تایید نادرست می باشد</value>
+  </data>
+  <data name="NotAllowedTorequestDelivery" xml:space="preserve">
+    <value>در حال حاضر امکان استفاده از این ویژگی وجود ندارد</value>
+  </data>
+  <data name="OrderIsAssignedToDelivery" xml:space="preserve">
+    <value>امکان لغو وجود ندارد</value>
+  </data>
+  <data name="TransporterAlreadyExists" xml:space="preserve">
+    <value>پیک در حال حاضر ثبت شده است</value>
+  </data>
+  <data name="TransporterShouldBeAccepted" xml:space="preserve">
+    <value>پیک می بایستی تایید گردد</value>
+  </data>
+  <data name="TransporterShouldBeRegistered" xml:space="preserve">
+    <value>پیک باید ثبت نام گردد</value>
+  </data>
+  <data name="UNEXPECTED_RESULT" xml:space="preserve">
+    <value>خطا در عملیات</value>
+  </data>
+  <data name="UserDoesNotExist" xml:space="preserve">
+    <value>کاربر یافت نشد</value>
+  </data>
+  <data name="DataAlreadyExisits" xml:space="preserve">
+    <value>مقدار وارد شده تکراری است</value>
+  </data>
+  <data name="ImageTypeIsRequired" xml:space="preserve">
+    <value>فرمت عکس اجباری است</value>
+  </data>
+  <data name="DataNotFound" xml:space="preserve">
+    <value>موردی یافت نشد!</value>
+  </data>
+  <data name="InvalidCaptcha" xml:space="preserve">
+    <value>کد تصویر اشتباه است!</value>
+  </data>
+  <data name="ServiceNotInitialized" xml:space="preserve">
+    <value>سرویس مورد نظر پیاده‌سازی نشده است!</value>
+  </data>
+  <data name="NotAllowLicenseExcelView" xml:space="preserve">
+    <value>مجوزی برای این کاربر صادر نشده است</value>
+  </data>
+  <data name="UserAlreadyExists" xml:space="preserve">
+    <value>کاربری با این مشخصات وجود دارد</value>
+  </data>
+  <data name="UserPhoneMAlreadyExists" xml:space="preserve">
+    <value>شماره موبایل تکراری است</value>
+  </data>
+  <data name="UnsupportedMimeTypeSpecified" xml:space="preserve">
+    <value>نوع داده معتبر نمی‌باشد</value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>خطا در اعتبارسنجی</value>
+  </data>
+  <data name="InvalidTextInput" xml:space="preserve">
+    <value>مقدار ورودی نامعتبر می‌باشد</value>
+  </data>
+  <data name="InvalidNationalCode" xml:space="preserve">
+    <value>کد ملی نامعتبر است</value>
+  </data>
+  <data name="InvalidMobileNumber" xml:space="preserve">
+    <value>شماره موبایل نامعتبر است</value>
+  </data>
+  <data name="InvalidInvalidPhoneNumber" xml:space="preserve">
+    <value>شماره تلفن نامعتبر است</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>آدرس ایمیل نامعتبر است</value>
+  </data>
+  <data name="InvalidInvalidFaxNumber" xml:space="preserve">
+    <value>شماره فکس نامعتبر است</value>
+  </data>
+  <data name="InvalidStageId" xml:space="preserve">
+    <value>شناسه مرحله نامعتبر است</value>
+  </data>
+  <data name="InvalidJobStatusId" xml:space="preserve">
+    <value>شناسه وضعیت شغل نامعتبر است</value>
+  </data>
+  <data name="InvalidJobTypeId" xml:space="preserve">
+    <value>شناسه نوع شغل نامعتبر است</value>
+  </data>
+  <data name="InvalidAreaId" xml:space="preserve">
+    <value>شناسه منطقه نامعتبر است</value>
+  </data>
+  <data name="InvalidWorkshopId" xml:space="preserve">
+    <value>شناسه کارگاه نامعتبر است</value>
+  </data>
+  <data name="InvalidZipCode" xml:space="preserve">
+    <value>کدپستی ناممعتبر است</value>
+  </data>
+  <data name="InvalidNetworkId" xml:space="preserve">
+    <value>شناسه شبکه نامعتبر است</value>
+  </data>
+  <data name="InvalidCounterId" xml:space="preserve">
+    <value>شناسه شمارنده نامعتبر است</value>
+  </data>
+  <data name="InvalidChildIndex" xml:space="preserve">
+    <value>کد مراقبت نامعتبر است</value>
+  </data>
+  <data name="InvalidId_Worktime" xml:space="preserve">
+    <value>شناسه زمان کاری نامعتبر است</value>
+  </data>
+  <data name="InvalidLicenseNO" xml:space="preserve">
+    <value>شناسه گواهینامه نامعتبر است</value>
+  </data>
+  <data name="InvalidId_CertificatesType" xml:space="preserve">
+    <value>نوع شناسه گواهینامه نامعتبر است</value>
+  </data>
+  <data name="InvalidVIN" xml:space="preserve">
+    <value>شماره شناسایی خودرو نامعتبر است</value>
+  </data>
+  <data name="InvalidAmountRequestPrice " xml:space="preserve">
+    <value>مقدار قیمت درخواست داده شده نامعتبر است</value>
+  </data>
+  <data name="InvalidMedicalNO" xml:space="preserve">
+    <value>شماره پزشکی نامعتبر است</value>
+  </data>
+  <data name="InvalidId_University" xml:space="preserve">
+    <value>شناسه دانشگاه نامعتبر است</value>
+  </data>
+  <data name="InvalidDentistUnitCnt" xml:space="preserve">
+    <value>تعداد واحد دندانپزشکی نامعتبر است</value>
+  </data>
+  <data name="InvalidMaxCount" xml:space="preserve">
+    <value>تعداد حداکثر نامعتبر است</value>
+  </data>
+  <data name="InvalidMinCount" xml:space="preserve">
+    <value>تعداد حداقل نامعتبر است</value>
+  </data>
+  <data name="InvalidMinLen" xml:space="preserve">
+    <value>حداقل طول نامعتبر است</value>
+  </data>
+  <data name="InvalidInsuranceNum1" xml:space="preserve">
+    <value>شماره بیمه نامعتبر است</value>
+  </data>
+  <data name="InvalidDiscount" xml:space="preserve">
+    <value>تخفیف نامعتبر است</value>
+  </data>
+  <data name="InvalidRefreshToken " xml:space="preserve">
+    <value>refresh token نامعتبر است</value>
+  </data>
+  <data name="InvalidRoleId" xml:space="preserve">
+    <value>شناسه نقش نامعتبر است</value>
+  </data>
+  <data name="InvalidImageData " xml:space="preserve">
+    <value>داده تصویر نامعتبر است</value>
+  </data>
+  <data name="LargeImageData" xml:space="preserve">
+    <value>داده تصویر حجیم است</value>
+  </data>
+  <data name="BusinessError" xml:space="preserve">
+    <value>خطای کسب و کار</value>
+  </data>
+  <data name="UnexpectedResult" xml:space="preserve">
+    <value>نتیجه غیر قابل انتظار است</value>
+  </data>
+  <data name="NetworkDoesNotExist" xml:space="preserve">
+    <value>دسترسی به شبکه وجود ندارد</value>
+  </data>
+  <data name="RoleDoesNotExist" xml:space="preserve">
+    <value>نقش وجود ندارد</value>
+  </data>
+  <data name="AmountDoesNotMatch" xml:space="preserve">
+    <value>مبلغ مطابقت ندارد</value>
+  </data>
+  <data name="PenaltyDoesNotMatch" xml:space="preserve">
+    <value>جریمه مطابقت ندارد</value>
+  </data>
+  <data name="InvalidAmountRequestBank" xml:space="preserve">
+    <value>درخواست مبلغ بانکی نامعتبر است</value>
+  </data>
+  <data name="SecurityError" xml:space="preserve">
+    <value>خطای امنیتی وجود دارد</value>
+  </data>
+  <data name="RefreshTokenDoesNotExist" xml:space="preserve">
+    <value>refresh token وجود ندارد</value>
+  </data>
+  <data name="RequestBindingError" xml:space="preserve">
+    <value>خطای درخواست اجباری وجود دارد</value>
+  </data>
+  <data name="BankConnectionError" xml:space="preserve">
+    <value>خطای ارتباط با بانک وجود دارد</value>
+  </data>
+  <data name="CounterDoesNotExists" xml:space="preserve">
+    <value>پیشخوان وجود ندارد</value>
+  </data>
+  <data name="DataDoesNotExist" xml:space="preserve">
+    <value>داده وجود ندارد</value>
+  </data>
+  <data name="DuplicatePlaque" xml:space="preserve">
+    <value>پلاک تکراری است</value>
+  </data>
+  <data name="DuplicateVIN" xml:space="preserve">
+    <value>شماره شناسایی خودرو تکرای است</value>
+  </data>
+  <data name="InvalidAgentNationalId" xml:space="preserve">
+    <value>شناسه ملی نماینده نامعتبر است</value>
+  </data>
+  <data name="InvalidAmount" xml:space="preserve">
+    <value>مبلغ نامعتبر است</value>
+  </data>
+  <data name="InvalidBarcode" xml:space="preserve">
+    <value>بارکد نامعتبر است</value>
+  </data>
+  <data name="InvalidDeliveryPrice" xml:space="preserve">
+    <value>قیمت تحویل نامعتبر است</value>
+  </data>
+  <data name="InvalidExcellFile" xml:space="preserve">
+    <value>فایل اکسل نامعتبر است</value>
+  </data>
+  <data name="InvalidFormDetails" xml:space="preserve">
+    <value>جزئیات فرم نامعتبر است</value>
+  </data>
+  <data name="InvalidId_VehicleName" xml:space="preserve">
+    <value>شناسه نام وسیله نقلیه نامعتبر است</value>
+  </data>
+  <data name="InvalidLicenseNO_Date" xml:space="preserve">
+    <value>تاریخ شماره مجوز نامعتبر است</value>
+  </data>
+  <data name="InvalidModelDate" xml:space="preserve">
+    <value>مدل داده نامعتبر است</value>
+  </data>
+  <data name="InvalidNullOrStringValue" xml:space="preserve">
+    <value>مقدار رشته یا خالی نامعتبر است</value>
+  </data>
+  <data name="InvalidOrderAccess" xml:space="preserve">
+    <value>دسترسی به سفارش نامعتبر است</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>کلمه عبور نامعتبر است</value>
+  </data>
+  <data name="InvalidPhoneM" xml:space="preserve">
+    <value>شماره همراه نامعتبر است</value>
+  </data>
+  <data name="InvalidPlaqueNumber" xml:space="preserve">
+    <value>شماره پلاک نامعتبر است</value>
+  </data>
+  <data name="InvalidPrice" xml:space="preserve">
+    <value>قیمت نامعتبر است</value>
+  </data>
+  <data name="InvalidProductId" xml:space="preserve">
+    <value>شناسه محصول نامعتبر است</value>
+  </data>
+  <data name="InvalidRoleUserId" xml:space="preserve">
+    <value>شناسه نقش کاربری نامعتبر است</value>
+  </data>
+  <data name="InvalidStateCode" xml:space="preserve">
+    <value>کد وضعیت نامعتبر است</value>
+  </data>
+  <data name="InvalidTechnicalNationalId" xml:space="preserve">
+    <value>شناسه ملی فنی نامعتبر است</value>
+  </data>
+  <data name="InvalidUniversityId" xml:space="preserve">
+    <value>شناسه دانشگاه نامعتبر است</value>
+  </data>
+  <data name="InvalidUserId" xml:space="preserve">
+    <value>شناسه کاربر نامعتبر است</value>
+  </data>
+  <data name="InvalidWorkshopTokenType" xml:space="preserve">
+    <value>نوع توکن کارگاه نامعتبر است</value>
+  </data>
+  <data name="JobTypeDoesNotExists" xml:space="preserve">
+    <value>نوع شغل وجود ندارد</value>
+  </data>
+  <data name="UserAccountInActive" xml:space="preserve">
+    <value>حساب کاربری غیر فعال است</value>
+  </data>
+  <data name="UserInfoDoesNotExist" xml:space="preserve">
+    <value>اطلاعات کاربر وجود ندارد</value>
+  </data>
+  <data name="InvalidPersianCharacter" xml:space="preserve">
+    <value>کاراکتر فارسی نامعتبر است</value>
+  </data>
+  <data name="InvalidZeroValue" xml:space="preserve">
+    <value>مقدار صفر نامعتبر است</value>
+  </data>
+  <data name="PaymentAlready" xml:space="preserve">
+    <value>پرداخت آماده است</value>
+  </data>
+  <data name="NetworkParentDoesNotExist" xml:space="preserve">
+    <value>شبکه وجود ندارد</value>
+  </data>
+  <data name="InvalidSeasonal" xml:space="preserve">
+    <value>فصل نامعتبر است</value>
+  </data>
+  <data name="InvalidPhoneF" xml:space="preserve">
+    <value>شماره تلفن نامعتبر است</value>
+  </data>
+  <data name="InvalidErrorIRCode" xml:space="preserve">
+    <value>کد ملی نامعتبر است</value>
+  </data>
+  <data name="InvalidHomemade" xml:space="preserve">
+    <value>خطا</value>
+  </data>
+  <data name="InvalidIdDay" xml:space="preserve">
+    <value>روز اشتباه است</value>
+  </data>
+  <data name="InvalidIdShift" xml:space="preserve">
+    <value>شیفت اشتباه است</value>
+  </data>
+  <data name="InvalidAutoClave" xml:space="preserve">
+    <value>خطا</value>
+  </data>
+  <data name="DataAlreadyExist" xml:space="preserve">
+    <value>مقدار وارد شده تکراری است</value>
+  </data>
+</root>
